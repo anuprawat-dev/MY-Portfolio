@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anup Rawat | Senior DevOps & Cloud Engineer</title>
+  <meta name="description" content="Senior DevOps Engineer with 8+ years in AWS, GCP, Terraform, Kubernetes, Jenkins. Alberta, Canada. Available Q1 2026">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    :root { --bg: #0d1117; --text: #f0f6fc; --accent: #58a6ff; --card: #161b22; }
+    .light { --bg: #ffffff; --text: #1f2328; --accent: #0969da; --card: #f6f8fa; }
+    body { margin:0; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; transition:0.4s; }
+    header, section { padding:4rem 2rem; max-width:1100px; margin:auto; }
+    header { text-align:center; background:linear-gradient(135deg,#1f6feb,#8b1feb); color:white; }
+    h1 { font-size:3rem; margin:0; }
+    h2 { color:var(--accent); border-bottom:2px solid var(--accent); padding-bottom:8px; }
+    .container { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:center; }
+    @media(max-width:768px){ .container{grid-template-columns:1fr;} }
+    .card { background:var(--card); padding:2rem; border-radius:12px; border:1px solid #30363d; }
+    .btn { background:var(--accent); color:white; padding:12px 28px; border:none; border-radius:8px; text-decoration:none; display:inline-block; margin:10px 8px; font-weight:bold; }
+    .btn:hover { opacity:0.9; }
+    .skills { display:flex; flex-wrap:wrap; gap:12px; margin:20px 0; }
+    .skill { background:#30363d; color:#58a6ff; padding:8px 18px; border-radius:50px; font-size:0.95rem; }
+    .light .skill { background:#e6f0ff; color:#0969da; }
+    footer { text-align:center; padding:3rem; background:#010409; color:#8b949e; }
+    .toggle { position:fixed; top:20px; right:20px; z-index:100; background:var(--card); padding:12px; border-radius:50%; cursor:pointer; box-shadow:0 4px 12px rgba(0,0,0,0.3); }
+    form input, form textarea { width:100%; padding:12px; margin:10px 0; border-radius:8px; border:1px solid #30363d; background:var(--card); color:var(--text); }
+    form button { background:#58a6ff; color:white; padding:14px 30px; border:none; border-radius:8px; cursor:pointer; font-size:1rem; }
+    .success { color:#79c879; font-weight:bold; }
+  </style>
+</head>
+<body>
+  <div class="toggle" onclick="document.body.classList.toggle('light')"><i class="fas fa-moon fa-lg"></i></div>
 
+  <header>
+    <h1>Anup Singh Rawat</h1>
+    <p style="font-size:1.5rem;margin:10px 0;">Senior DevOps & Cloud Engineer | Alberta, Canada</p>
+    <p>Terraform • Kubernetes • AWS • GCP • Jenkins • Ansible • OpenShift • Kafka</p>
+    <div>
+      <a href="mailto:anuprawat1055@gmail.com" class="btn"><i class="fas fa-envelope"></i> Email Me</a>
+      <a href="https://linkedin.com/in/anuprawat" target="_blank" class="btn"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/anuprawat-dev" target="_blank" class="btn"><i class="fab fa-github"></i> GitHub</a>
+      <a href="Anup_Rawat_Resume.pdf" download class="btn"><i class="fas fa-file-pdf"></i> Download Resume</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <div class="container">
+      <div>
+        <p>Senior DevOps Engineer with <strong>8+ years</strong> building production-grade, auto-scaling infrastructure on <strong>AWS • GCP • Azure</strong>.</p>
+        <p>Currently at <strong>Globus Info Services</strong>: Migrated 50+ Java microservices to OpenShift, reduced provisioning time by 85% using Terraform, own full CI/CD with Jenkins + Ansible.</p>
+        <p>Open-sourced a <strong>real-time social feed system</strong> (X/Twitter-style) using Java + Kafka + Cassandra + EKS → 10K+ posts/sec.</p>
+        <p>Actively interviewing • Available Q1 2026 • Open to Canada/US/Remote</p>
+      </div>
+      <img src="https://i.ibb.co/4pX7T5k/anup-photo.jpg" alt="Anup Rawat" style="border-radius:50%; width:300px; height:300px; object-fit:cover; border:6px solid var(--accent); box-shadow:0 10px 30px rgba(0,0,0,0.4);">
+    </div>
+  </section>
+
+  <section style="background:var(--card);">
+    <h2>Featured Project</h2>
+    <div class="card">
+      <h3><a href="https://github.com/anuprawat-dev/real-time-social-feed" target="_blank" style="color:var(--accent);">Real-Time Social Feed Engine (X/Twitter-style)</a></h3>
+      <p>High-performance real-time feed with <strong>fan-out-on-write</strong> architecture.</p>
+      <p><strong>Java • Kafka • Cassandra • Kubernetes • Terraform • EKS</strong></p>
+      <p>10,000+ posts/sec • &lt;80ms p99 latency • Zero-downtime deployments</p>
+      <a href="https://github.com/anuprawat-dev/real-time-social-feed" class="btn">View Project</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <span class="skill">Terraform</span><span class="skill">Kubernetes</span><span class="skill">AWS</span><span class="skill">GCP</span>
+      <span class="skill">Jenkins</span><span class="skill">Ansible</span><span class="skill">Docker</span><span class="skill">OpenShift</span>
+      <span class="skill">Kafka</span><span class="skill">Python</span><span class="skill">Linux</span><span class="skill">GitOps</span>
+    </div>
+  </section>
+
+  <section style="background:var(--card);">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <form action="https://formspree.io/f/your-form-id-here" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="6" placeholder="Your Message (e.g., Hi Anup, we have a Senior DevOps role at Shopify...)" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="status"></p>
+    </div>
+    <script>
+      const form = document.querySelector('form');
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const status = document.getElementById('status');
+        status.textContent = "Sending...";
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        if (res.ok) {
+          status.innerHTML = "<span class='success'>Message sent! I'll reply within 24h</span>";
+          form.reset();
+        } else {
+          status.textContent = "Oops! Try again or email me directly.";
+        }
+      });
+    </script>
+  </section>
+
+  <footer>
+    <p>© 2025 Anup Singh Rawat • DevOps Engineer • Alberta, Canada • +1 780-604-6355</p>
+  </footer>
+</body>
+</html>
